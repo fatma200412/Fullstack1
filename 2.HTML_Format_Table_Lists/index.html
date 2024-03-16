@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css links -->
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        /* border: 1px solid black; */
+        border-width: 2px;
+        border-style: solid;
+        border-color: black;
+        /* padding: 20px; */
+
+        /* border-collapse: collapse; */
+      }
+      /* th {
+        border-radius: 10px;
+      } */
+      .timeTable,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      /* th {
+        background-color: aqua;
+      } */
+    </style>
+  </head>
+  <body>
+    <h1>Text Formatting</h1>
+    <p>Lorem, ipsum.</p>
+    <p><small>Lorem, ipsum.</small></p>
+    <p><b>Lorem, ipsum.</b></p>
+    <p><i>Lorem, ipsum.</i></p>
+    <p>
+      <mark style="background-color: aqua">Lorem, ipsum.</mark>
+    </p>
+    <p><strong>Lorem, ipsum.</strong></p>
+    <p><em>Lorem, ipsum.</em></p>
+
+    <p>Lorem ipsum dolor <strong>mark</strong> amet.</p>
+    <p>Lorem ipsum dolor <em>sit</em> amet.</p>
+    <p><del>Lorem, ipsum.</del></p>
+    <p><ins>Lorem, ipsum.</ins></p>
+    <p>H<sub>2</sub>O</p>
+    <p>x<sup>2</sup></p>
+
+    <h1>Table</h1>
+    <table style="width: 100%">
+      <caption>
+        Name and surname
+      </caption>
+      <colgroup>
+        <col span="1" />
+        <col span="1" style="background-color: antiquewhite" />
+        <col span="2" style="background-color: aquamarine" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th style="width: 10%; height: 50px">Name</th>
+          <th style="width: 50%">Surname</th>
+          <th style="width: 20%">Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fatma</td>
+          <td>Guliyeva</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Fatma</td>
+          <td>Guliyeva</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>Time Table</h1>
+    <table class="timeTable">
+      <colgroup>
+        <col span="5" />
+        <col span="1" style="background-color: aqua" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th colspan="6">Time Table</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="6">Hours</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Art</td>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Art</td>
+        </tr>
+        <tr>
+          <th colspan="5">Lunch</th>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+          <th colspan="2" rowspan="2">Project</th>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>Lists</h1>
+
+    <h3>Unordered List</h3>
+    <ul style="list-style-type: square">
+      <li>Item 1</li>
+      <ul style="list-style-type: disc">
+        <li>Item 1.1</li>
+        <li>Item 1.2</li>
+      </ul>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <h3>Ordered Lists</h3>
+    <ol type="A" start="1">
+      <li>Item 1</li>
+      <ol>
+        <li>Item 1.1</li>
+        <li>Item 1.2</li>
+      </ol>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <h3>Description Lists</h3>
+    <dl>
+      <dt>Qelem</dt>
+      <dd>-yazi yazmaq ucun esya</dd>
+    </dl>
+    <script src="./addd.js"></script>
+  </body>
+</html>
