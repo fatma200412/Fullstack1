@@ -1,0 +1,11 @@
+h1 {
+  color: rgba(39, 39, 180, 0.619);
+  color: #d63a3a;
+  color: hsl(0, 66%, 53%);
+}
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#c12424, #4bcd42);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
