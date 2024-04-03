@@ -11,7 +11,7 @@ body {
   width: 500px;
   height: 500px;
   background-color: gray;
-  /* position: relative; */
+  position: relative;
 }
 .parentDiv {
   border: 1px solid black;
@@ -22,12 +22,16 @@ body {
 }
 .box {
   border: 1px solid black;
-  width: 60px;
-  height: 60px;
+  width: 59px;
+  height: 100px;
   /* position: absolute; */
 }
 .box1 {
   background-color: yellow;
+  position: absolute;
+  left: calc(50% - 59px / 2);
+  top: calc(50% - 100px / 2);
+
   /* z-index: 5;
   bottom: 10px; */
   /* position: absolute;

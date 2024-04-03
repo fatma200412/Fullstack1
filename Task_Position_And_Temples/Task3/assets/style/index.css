@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  width: 25%;
+  margin: 40px auto;
+  position: relative;
+}
+.card .singer-image {
+  width: 100%;
+  height: 220px;
+}
+.card .singer-image img {
+  width: 100%;
+  height: 100%;
+}
+.card .details {
+  background: rgb(214, 49, 12);
+  background: linear-gradient(
+    159deg,
+    rgba(214, 49, 12, 1) 6%,
+    rgba(209, 125, 21, 1) 55%,
+    rgba(255, 222, 0, 1) 100%
+  );
+  padding: 30px 25px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.card .details article {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.card .details article h2 {
+  margin-bottom: 15px;
+}
+.card .details ul.sosial-links {
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.card .details ul.sosial-links li {
+  display: inline-block;
+  margin: 20px 15px;
+}
+.card .details ul.sosial-links li a {
+  color: black;
+}
+.card button {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  right: calc(50% - 150px / 2);
+  bottom: -25px;
+  background-color: #ef6a45;
+  border: none;
+  border-radius: 10px;
+}
+.card button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+}
+.card button:hover {
+  background-color: #94391f;
+}

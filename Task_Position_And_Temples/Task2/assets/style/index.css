@@ -1,0 +1,31 @@
+.olive-box {
+  border: 3px solid olive;
+  width: 80%;
+  height: 600px;
+  position: relative;
+  margin: 10px auto;
+}
+.olive-box .lime-box {
+  border: 3px solid lime;
+  width: 60%;
+  height: 400px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.olive-box .lime-box .brown-box {
+  border: 3px solid brown;
+  width: 50%;
+  height: 200px;
+  position: absolute;
+  right: calc(50% - 25%);
+  bottom: calc(50% - 100px);
+}
+.olive-box .lime-box .brown-box .red-box {
+  border: 3px solid blue;
+  width: 30%;
+  height: 100px;
+  position: absolute;
+  bottom: calc(50% - 100px / 2);
+  left: calc(50% - 30% / 2);
+}
