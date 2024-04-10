@@ -8,7 +8,7 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
 }
 
 header .container .headerLeft {
@@ -75,4 +75,50 @@ header .container .headerRight .blogBtn {
 header .container .headerRight .loginBtn {
   background-color: #dc392d;
   color: white;
+}
+header .container .mobile-bar {
+  color: RGB(105, 112, 122);
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  header .container .mobile-bar.mobile-bar {
+    display: block;
+  }
+  header .container .headerLeft .links {
+    display: none;
+  }
+  header .container .headerRight {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header .container .headerLeft .logo .image-logo {
+    width: 50px;
+  }
+}
+
+
+main{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen {
+  
 }
