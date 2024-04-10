@@ -1,0 +1,78 @@
+header {
+  width: 90%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+header .container .headerLeft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container .headerLeft .logo {
+  /* width: 50%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .container .headerLeft .logo .image-logo {
+  width: 80px;
+}
+
+header .container .headerLeft .logo .image-logo img {
+  width: 100%;
+}
+
+header .container .headerLeft .logo h1 {
+  font-size: 19.2px;
+  font-weight: 600;
+}
+
+header .container .headerLeft .links {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container .headerLeft .links li {
+  padding-left: 20px;
+}
+
+header .container .headerLeft .links li a {
+  font-size: 14.4px;
+  color: RGB(105, 112, 122);
+  font-weight: 500;
+}
+
+header .container .headerLeft .links li .icon {
+  font-size: 10px;
+  color: RGB(105, 112, 122);
+}
+
+header .container .headerRight {
+}
+header .container .headerRight button {
+  padding: 8px 19px;
+  font-size: 14.4px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+}
+header .container .headerRight .blogBtn {
+  color: RGB(105, 112, 122);
+
+  background-color: white;
+}
+
+header .container .headerRight .loginBtn {
+  background-color: #dc392d;
+  color: white;
+}
