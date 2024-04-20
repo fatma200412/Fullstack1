@@ -1,0 +1,52 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixin" as *;
+@use "../abstracts/extends" as *;
+
+header {
+  //   width: 90%;
+  //   border: 1px solid black;
+  //   margin: 0 auto;
+  @extend %arxaFon;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  @include flex($justify: space-between);
+  h1 {
+    background-color: $esasReng;
+    color: white;
+  }
+  ul {
+    @include flex;
+    li {
+      padding: 10px;
+    }
+  }
+  .btnBox {
+    background-color: $esasReng;
+    padding: 20px;
+    &Item {
+      // padding: 10px 20px;
+      // background-color: yellow;
+      @include btn($bgc: yellow, $color: black);
+    }
+  }
+}
+
+.container {
+  @extend %arxaFon;
+  height: 600px;
+  background-color: gray;
+  @include flex($justify: space-around);
+  .box {
+    @extend %boxs;
+  }
+  .box1 {
+    @include box;
+  }
+  .box2 {
+    @include box($bgc: red, $borderRadius: 10px);
+  }
+  .box3 {
+    @include box($width: 150px, $borderRadius: 20%, $bgc: green);
+  }
+}

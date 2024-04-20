@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as *;
+%arxaFon {
+  width: 95%;
+  margin: $ortalamaq;
+  border: 1px solid red;
+}
+%boxs {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}

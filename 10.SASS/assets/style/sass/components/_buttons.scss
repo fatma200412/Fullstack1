@@ -1,0 +1,9 @@
+// .btn {
+//   padding: 10px 20px;
+//   background-color: blue;
+//   color: white;
+// }
+@use "../abstracts/mixin" as *;
+.btn {
+  @include btn;
+}
